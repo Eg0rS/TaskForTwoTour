@@ -1,4 +1,4 @@
-﻿namespace tour2.Model;
+﻿namespace Models.Model;
 
 public class SortieModel
 {
@@ -9,4 +9,5 @@ public class SortieModel
     public double Height { get; set; }
     public int MissionCompleted { get; set; }
     public bool IsShotSown {get; set; }
+    public double ConsumptionFuel { get; set; }
 }

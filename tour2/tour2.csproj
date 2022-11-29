@@ -9,12 +9,8 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="Repository" />
-      <Folder Include="Service" />
-    </ItemGroup>
-
-    <ItemGroup>
       <ProjectReference Include="..\DataBase\DataBase.csproj" />
+      <ProjectReference Include="..\Models\Models.csproj" />
     </ItemGroup>
 
 </Project>
