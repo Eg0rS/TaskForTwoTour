@@ -21,7 +21,7 @@ public class DbConnection
             $" ( [Id] INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL," +
             $" [Name] TEXT, " +
             $"[Model] TEXT, " +
-            $"[Engine] real, " +
+            $"[Engine] TEXT, " +
             $"[MaxSpeed] real, " +
             $"[MaxFlightTime] real," +
             $" [MaxFlightDistance] real, " +
